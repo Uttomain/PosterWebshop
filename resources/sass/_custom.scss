@@ -1,0 +1,200 @@
+/*
+    You can write your coustom Css here
+    - Usman Kiyani
+
+*/
+
+/* Global Layout */
+    
+    /* Navbar */
+.navbar-costum{
+    background-color: #413F3F;
+    color:white;
+}  
+nav.navbar-costum {
+    color:white;
+}  
+
+
+
+a, a:hover,a:visited, a:focus {
+    text-decoration:none;
+    
+    
+}
+
+
+
+/* pagination  */
+.pagination{
+    
+}
+
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #CD9044;
+    border-color: #3490dc;
+}
+.page-link {
+    position: relative;
+    display: block;
+    padding: 0.5rem 0.75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: white;
+    background-color: #413F3F;
+    border: 1px solid #dee2e6;
+}
+
+.page-item.disabled .page-link {
+    color: #6c757d;
+    pointer-events: none;
+    cursor: auto;
+ background-color: #413F3F;
+    border-color: #dee2e6;
+}
+
+/* ADMIN TOOLBAR  */
+
+
+/* ADMIN LOGIN */
+
+.admin-bg{
+    background-color: #413F3F;
+}
+
+.admin-login-title{
+    color: white;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;    
+    margin: auto;
+  }
+  .form-signin .checkbox {
+    font-weight: 400;
+  }
+  .form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+  }
+  .form-signin .form-control:focus {
+    z-index: 2;
+  }
+  .form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+/* Front Page */
+
+.front-cover{
+    padding:0px;
+}
+
+/* Product Page */
+/* Product Card */
+.product-card-show{
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    
+}
+.product-card-show-img{
+    border-style: solid;
+    border-color: #413F3F;
+    border-width: 7px;
+}
+
+/* Product Card Hover Effect */
+.product-div2{
+    position:relative;
+    overflow:hidden;
+}
+.product-div2:hover .button-view{
+     top: 50%;
+     opacity:1;
+}
+.product-div2:hover img{
+    opacity:.8;
+}
+.button-view{
+    position:absolute;
+    top: 60%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    opacity:0;
+}
+
+.transition{
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+}
+
+.btn-laeg-i-kurv-knap{
+    
+    background-color: #CD9044;
+}
+
+/* Cart Page */
+
+/* Post Page */
+.post-card{
+    width: 450px;
+    border-radius: 3%!important;
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.round-avatar{
+    height: 50px;
+    width: 50px;
+    background-color: #CD9044;
+    border-radius: 50%!important;
+    font-weight: 700!important;
+}
+
+.first-letter{
+    padding-top: 19%;
+}
+
+.post-info{
+    margin-left: -80px;
+}
+.post-title-border{
+   
+    border-top: 1px solid #413f3f38;; 
+}
+
+.post-card-full{
+    width: 800px;
+    border-radius: 3%!important;
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.post-info-full{
+    margin-left: -70px;
+}
+
+.post-body-text{
+    
+}
+
+.btn-edit{
+    background-color: #B3A654;
+    color: white;
+}
